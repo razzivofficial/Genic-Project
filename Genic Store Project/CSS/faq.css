@@ -218,17 +218,18 @@ body {
 	position:relative;
   max-width: 400px;
   width: 100%; */
-    width: max-content;
+    width: 100%;
     margin: 0;
-    position: relative;
-    top: -340px;
-    left: 830px;
+    position: fixed;
+    top: 50px;
+    left: 500px;
 }
 
 #suggestion_box textarea, #suggestion_box button[type="submit"] { font:400 16px/16px "Open Sans", Helvetica, Arial, sans-serif; }
 
 #suggestion_box {
 	background:linear-gradient(180deg, #A0138E 0%, #382A8D 100%);
+  position: relative;
 	padding:25px;
 	margin:50px 0;
 }

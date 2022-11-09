@@ -17,18 +17,22 @@
         integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
         crossorigin="anonymous"></script>
     <!-- css file link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
     <link rel="stylesheet" href="../CSS/style.css">
 
 </head>
 
 
-<!-- header section starts  -->
+<!-- header section starts  
 <header>
     <nav class="navbar fixed-top navbar-expand-lg"
         style="background: linear-gradient(180deg, #A0138E 0%, #382A8D 100%);">
         <a class="navbar-brand" href="#">
             <img src="images/logo.png" alt="genic logo" width="160">
         </a>
+
+
+        
         <div class="container-fluid">
             <a class="navbar-brand" href="../1. Main page/index.html">Home</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -61,7 +65,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <!-- login form container  -->
+
             <div class="container-md">
                 <div>
                     <a href="../4. Signup/signup.html">
@@ -77,7 +81,55 @@
         
     </nav>
 </header>
-<!-- header section ends here -->
+header section ends here -->
+
+<!-- New Navbar with Hamburgur Menu START -->
+<header>
+<nav class="navbar fixed-top navbar-expand-lg">
+    <ul class="menu">
+        <a class="navbar-brand" href="index.html">
+            <img src="images/logo.png" alt="genic logo" width="160">
+        </a>
+
+
+
+        <li class="item"><a href="#">Home</a></li>
+        <li class="item"><a href="#">About</a></li>
+        <li class="item has-submenu">
+            <a tabindex="0">Services</a>
+            <ul class="submenu">
+                <li class="subitem"><a href="#">Design</a></li>
+                <li class="subitem"><a href="#">Development</a></li>
+                <li class="subitem"><a href="#">SEO</a></li>
+                <li class="subitem"><a href="#">Copywriting</a></li>
+            </ul>
+        </li>
+        <li class="item has-submenu">
+            <a tabindex="0">Plans</a>
+            <ul class="submenu">
+                <li class="subitem"><a href="#">Freelancer</a></li>
+                <li class="subitem"><a href="#">Startup</a></li>
+                <li class="subitem"><a href="#">Enterprise</a></li>
+            </ul>
+        </li>
+        <li class="item"><a href="#">Blog</a></li>
+        <li class="item"><a href="#">Contact</a></li>
+        <li class="item button"><a href="#">Log In</a></li>
+        <li class="item button secondary"><a href="#">Sign Up</a></li>
+
+        <li class="toggle">
+            <a href="#"><i class="fas fa-bars"></i></a>
+        </li>
+    </ul>
+</nav>
+</header>
+<!-- New Navbar with Hamburgur Menu ENDS -->
+
+
+
+
+
+
 
 <body>
 
@@ -99,7 +151,7 @@
                     </div>
                 </div>
 
-                <a href="" class="typewrite" data-period="2000" data-type='[ "We are bringing", "Social touch to", "Retail ... :-) " ]'>
+                <a href="" class="typewrite" data-period="2000" data-type='[ "We are bringing", "Social touch to", "Retail ... :-)" ]'>
                     <span class="wrap"></span>
                 </a>
                 <!-- <div class="wrapper">

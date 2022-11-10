@@ -3,12 +3,14 @@
 header {
     position: fixed;
     /* background: linear-gradient(180deg, #A0138E 0%, #382A8D 100%); */
-    z-index: 1000;
+    z-index: 100;
     display: flex;
     text-align: right;
     justify-content: space-between;
     padding: 2rem 9%;
     overflow-x: hidden;
+    /* align-items: right !important; */
+    float: right;
 }
 
 a {
@@ -23,6 +25,7 @@ a {
 nav {
   background: linear-gradient(180deg, #A0138E 0%, #382A8D 100%);
   font-size: 20px;
+  float: right !important;
 }
 a {
   color: white;
@@ -37,10 +40,10 @@ a {
   padding: 7.5px 10px 7.5px 0;
 } */
 .item {
-  padding: 10px;
+  padding: 1px;
 }
 .item.button {
-  padding: 9px 5px;
+  padding: 10px 5px;
 }
 .item:not(.button) a:hover,
 .item a:hover::after {
@@ -92,7 +95,7 @@ a {
 }
 .has-submenu > a::after {
   font-family: 'Roboto';
-  font-size: 12px;
+  font-size: 10px;
   line-height: 16px;
   font-weight: 900;
   content: "\f078";
@@ -127,8 +130,8 @@ a {
   }
   /* Button up from tablet screen */
   .menu li.button a {
-    padding: 10px 15px;
-    margin: 5px 0;
+    padding: 5px 15px;
+    margin: 10px 0;
   }
   .button a {
     background: transparent;
@@ -139,7 +142,7 @@ a {
   }
   .button.secondary a {
     background: orangered;
-    border: 1px green solid;
+    border: 1px rgb(255, 255, 255) solid;
   }
   .button a:hover {
     text-decoration: none;

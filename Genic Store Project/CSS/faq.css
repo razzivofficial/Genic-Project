@@ -10,6 +10,7 @@ header {
     text-align: right;
     justify-content: space-between;
     padding: 2rem 9%;
+    background-repeat: repeat-x;
 }
 
 
@@ -158,7 +159,7 @@ flex-direction: column;
 }
 
 .faq-page:after {
-    content: '\02795';
+    /* content: '\02795'; */
     /* Unicode character for "plus" sign (+) */
     font-size: 13px;
     color: #777;
@@ -166,10 +167,10 @@ flex-direction: column;
     margin-left: 5px;
 }
 
-.active:after {
-    content: "\2796";
-    /* Unicode character for "minus" sign (-) */
-}
+/*.active:after {
+     content: "\2796";
+     Unicode character for "minus" sign (-)
+}*/
 
 
 
@@ -212,12 +213,6 @@ body {
 }
 
 .container {
-	/* max-width:400px;
-	width:100%;
-	margin:0 auto;
-	position:relative;
-  max-width: 400px;
-  width: 100%; */
     width: 100%;
     margin: 0;
     position: fixed;
@@ -228,10 +223,11 @@ body {
 #suggestion_box textarea, #suggestion_box button[type="submit"] { font:400 16px/16px "Open Sans", Helvetica, Arial, sans-serif; }
 
 #suggestion_box {
-	background:linear-gradient(180deg, #A0138E 0%, #382A8D 100%);
+	background:linear-gradient(180deg, #b0249d 0%, #1f1563 100%);
   position: relative;
 	padding:25px;
 	margin:50px 0;
+  text-align: center;
 }
 
 #suggestion_box h3 {
@@ -263,7 +259,7 @@ fieldset {
 
 #suggestion_box textarea {
 	/* width:100%; */
-  width: 350px;
+  width: inherit;
   height: 250px;
 	border:1px solid #CCC;
 	background: transparent;
@@ -315,4 +311,14 @@ fieldset {
  color:#888;
 }
 
+.video{
+  width: 35%;
+  float: left !important;
+  top: 10px;
+  left: 20px;
+}
+
+.faq_qa{
+  float: left !important;
+}
 

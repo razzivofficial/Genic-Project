@@ -18,6 +18,15 @@ a {
     font-weight: bold;
 }
 
+body {
+  border: 0%;
+  margin: 0%;
+  padding-top: 0%;
+  font-family: 'Roboto';
+  font-style: normal;
+  color: white;
+  /* background-color: rgb(255, 255, 255) */
+}
 
 /*Nav bar css */
 
@@ -188,193 +197,338 @@ a {
 }
 
 
-/* slideshow */
-* {box-sizing: border-box;}
-body {font-family: Verdana, sans-serif;}
-.mySlides {display: none;}
-img {vertical-align: middle;}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-/* Caption text */
-h4.text {
-  color: black;
-  font-family: 'Roboto';
-  font-size: 17px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: -5px;
-  width: 100%;
-  text-align: center;
-}
-
-
-/* Number text (1/3 etc)
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}*/
-
-/* The dots/bullets/indicators */
-.dot {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active {
-  background-color: transparent;
-}
-
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .text {font-size: 10px}
-}
-
-
-
-body {
-  border: 0%;
-  margin: 0%;
-  padding-top: 0%;
-  font-family: 'Roboto';
-  font-style: normal;
-  /* background-color: rgb(255, 255, 255) */
-}
-@media (max-width: 979px) {
-  body {
-    padding-top: 0px;
-  }
-}
-
-.container {
-  min-height: 100vh;
-  justify-content: center;
-  align-items: center;
-  /* display: flex; */
-  text-align: center;
-  display: flex;
-}
-
-#com
-{
-  z-index: 10;
-}
-
-.container div > p span {
-  color: red;
-}
-
-p {
-  position: relative;
-  top: 30px;
-}
-
-p a {
-  color: black;
-  text-decoration: none;
-}
-
-button {
-  cursor: pointer;
-  border: 0;
-  border-radius: 4px;
-  font-weight: 600;
-  margin: 0 10px;
-  width: 120px;
-  padding: 10px 0;
-  box-shadow: 0 0 20px rgba(104, 85, 224, 0.2);
-  transition: 0.4s;
-}
-
-.reg {
-  color: white;
-  background-color: rgba(104, 85, 224, 1);
-}
-
-.log {
-  color: rgb(104, 85, 224);
-  background-color: rgba(255, 255, 255, 1);
-  border: 1px solid rgba(104, 85, 224, 1);
-}
-
-button:hover {
-  color: white;
-  width: 100;
-  box-shadow: 0 0 20px rgba(104, 85, 224, 0.6);
-  background-color: rgba(104, 85, 224, 1);
-}
-
 #container {
   padding: 60px;
   text-align: right;
   width: 400;
+}
+
+
+
+.txt1 {
+  margin-left: 7.5%;
+
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.txt2 {
+  margin-left: 7.5%;
+  margin-top: 7.5%;
+  font-weight: 100;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.img1 {
+  margin-left: 7.5%;
+  margin-top: 7.5%;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.txt11 {
+  margin-left: 7.5%;
+  margin-top: 7.5%;
+}
+
+.img2 {
+  margin-left: 13%;
+  margin-top: 7.5%;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.img3 {
+  margin-left: 15%;
+  margin-top: 7.5%;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.par {
+  margin-top: 15%;
+  font-size: large;
+  font-weight: 900;
+  margin-left: 20%;
+}
+
+.hed {
+  font-weight: 100;
+  margin-left: 20%;
+}
+
+.mage {
+  margin-top: 25%;
+  margin-left: 40%;
+  max-width: 70%;
+}
+
+.txt21 {
+  font-size: xx-large;
+  font-weight: 900;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-family: Arial, Helvetica, sans-serif;
+  float: left;
+}
+
+.txt22 {
+  margin-left: 20%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.magii {
+  width: 100%;
+  float: right;
+}
+
+.one {
+  height: 10%;
+  width: 100%;
+  left: -4px;
+  /* top: 851.999755859375px; */
+  border-radius: 0px;
+  padding-top: 100px;
+}
+
+.two {
+  height: 10%;
+  width: 100%;
+  left: -4px;
+  /* top: 851.999755859375px; */
+  border-radius: 0px;
+  padding-top: 100px;
+}
+
+.img2 {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  margin-left: 50px;
+}
+
+.img3 {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  margin-left: 50px;
+  margin-top: 1%;
+  margin-bottom: 0%;
+}
+.img22 {
+  padding-top: 55px;
+  padding-bottom: 95px;
+}
+
+.txt44 {
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  padding-bottom: 30px;
+  line-height: 30px;
+}
+
+.lets {
+  letter-spacing: 10px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.roww {
+  display: flex;
+  align-items: center; /* aligns all the items vertically centered */
+  justify-content: center; /* aligns all the items horizontally centered */
+}
+
+#boxes {
+  margin-top: 10%;
+}
+
+#leftbox h3 {
+  font-size: 15px;
+}
+
+#middlebox h3 {
+  font-size: 20px;
+}
+
+#rightbox h3 {
+  font-size: 15px;
+}
+#leftbox {
+  float: left;
+  margin-left: 100px;
+  width: 20%;
+  height: 280px;
+}
+#middlebox {
+  float: left;
+
+  width: 20%;
+  height: 280px;
+}
+#rightbox {
+  float: right;
+  width: 20%;
+  margin-right: 100px;
+  height: 280px;
+}
+h1 {
+  color: green;
+  text-align: center;
+}
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  border: 1px red solid;
+  max-height: 50%;
+}
+.image2 {
+  position: absolute;
+  object-position: left;
+  top: 30px;
+  left: 30px;
+  border: 1px green solid;
+}
+.img222 {
+  height: 200px;
+  width: 50%;
+}
+
+.gfg {
+  margin-top: 35px;
+  margin: 3%;
+  position: relative;
+  padding-top: 50px;
+}
+
+.first-txt {
+  position: absolute;
+  top: 17px;
+  left: 50px;
+}
+
+.second-txt {
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+}
+
+.border-right {
+  border-right: 3px solid #a0138e;
+}
+
+.container212 {
+  position: relative;
+  text-align: center;
+  color: white;
+  align-self: center;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  text-align: left;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.parent {
+  position: relative;
+  top: 30px;
+  left: 30px;
+}
+.image1 {
+  position: relative;
+  top: 30px;
+  left: 30px;
+  border: 1px red solid;
+}
+.image2 {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  border: 1px green solid;
+}
+
+.hanhan {
+    padding-top: 50px;
+    width: 400px;
+    height: 700px;
   }
 
-.bg {
-    position: absolute;
-    width: 100%;
-    left: 0%;
-    /* right: 5521.92%; */
-    top: -3%;
-    bottom: 21.7%;
-    z-index: 0;
-  /* lines and animation  */
+
+.hanhan2 {
+  padding-top: 25%;
+  color: white;
+  font-size: 44px;
 }
 
-.lines{
-  position: absolute;
-  width: 800px;
-  /* height: 284px; */
-  left: 60px;
-  top: 100px;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 900;
-  /* font-size: 5000px; */
-  line-height: 71px;
-  float: left;
-  text-align: justify;
-  color: #FFFFFF;
+.wee {
+  color: white;
+}
+
+.btn1 {
+  background-color: none;
+  color: white;
+  border-radius: 50px;
+  border-color: white;
+}
+
+.btn2 {
+  background-color: #a73215;
+  border-color: white;
+
+  border-radius: 50px;
+  color: white;
+}
+
+.tree {
+  padding-bottom: 23%;
 }
 
 
-.typewrite {
-  color: #fff;
-  font-family: 'Roboto';
-  font-size: x-large;
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: transparent; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .10em; /* Adjust as needed */
-  animation: 
-    typing 3.5s steps(30, end),
-    blink-caret .5s step-end infinite;
-}
+
+/* footer starts */
+
 
 .txt1 {
   margin-left: 7.5%;
@@ -588,13 +742,3 @@ button:hover {
   margin-right: 100px;
   height: 280px;
 }
-h1 {
-  color: violet;
-  text-align: center;
-}
-
-/* .social_media{
-  top: 100px;
-  left: 100px;
-  flex: auto;
-} */

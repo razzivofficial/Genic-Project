@@ -1,27 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap");
 header {
-    position: fixed;
-    /* background: linear-gradient(180deg, #A0138E 0%, #382A8D 100%); */
-    z-index: 100;
-    display: flex;
-    text-align: right;
-    justify-content: space-between;
-    padding: 2rem 9%;
-    overflow-x: hidden;
-    /* align-items: right !important; */
-    float: right;
+  position: fixed;
+  /* background: linear-gradient(180deg, #A0138E 0%, #382A8D 100%); */
+  z-index: 100;
+  display: flex;
+  text-align: right;
+  justify-content: space-between;
+  padding: 2rem 9%;
+  overflow-x: hidden;
+  /* align-items: right !important; */
+  float: right;
 }
 
 a {
-    color: #ebeef4 !important;
-    font-weight: bold;
+  color: #ebeef4 !important;
+  font-weight: bold;
 }
 
 body {
   border: 0%;
   margin: 0%;
   padding-top: 0%;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   color: white;
   /* background-color: rgb(255, 255, 255) */
@@ -29,9 +29,8 @@ body {
 
 /*Nav bar css */
 
-
 nav {
-  background: linear-gradient(180deg, #A0138E 0%, #382A8D 100%);
+  background: linear-gradient(180deg, #a0138e 0%, #382a8d 100%);
   font-size: 20px;
   float: right !important;
 }
@@ -103,7 +102,7 @@ a {
   font-size: 12px;
 }
 .has-submenu > a::after {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-size: 10px;
   line-height: 16px;
   font-weight: 900;
@@ -195,13 +194,11 @@ a {
   }
 }
 
-
 #container {
   padding: 60px;
   text-align: right;
   width: 400;
 }
-
 
 /* footer starts */
 
@@ -212,7 +209,7 @@ a {
   left: 0;
   position: relative; /*changed to relative from fixed also works if position is not there*/
   font-size: small;
-  width:100%;
+  width: 100%;
 }
 
 .txt1 {
@@ -231,7 +228,7 @@ a {
   font-weight: 100;
 }
 
-.animation{
+.animation {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
   max-width: 100%;
   height: auto;
@@ -259,7 +256,7 @@ a {
 .img2:hover {
   -ms-transform: scale(1.5);
   -webkit-transform: scale(1.5);
-  transform: scale(1.3); 
+  transform: scale(1.3);
 }
 
 .img3 {
@@ -268,12 +265,11 @@ a {
   font-weight: bold;
   font-size: 50px;
 }
-  .img3:hover {
-    -ms-transform: scale(1.5); /* IE 9 */
-    -webkit-transform: scale(1.5); /* Safari 3-8 */
-    transform: scale(1.3); 
+.img3:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.3);
 }
-
 
 /* copy till here for footer and nav */
 
@@ -300,7 +296,7 @@ a {
   font-weight: 900;
   margin-left: 20%;
   margin-right: 20%;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   float: left;
   color: black;
 }
@@ -309,7 +305,7 @@ a {
   margin-left: 20%;
   float: left;
   font-size: large;
-  font-family: 'Roboto';
+  font-family: "Roboto";
 }
 
 .magii {
@@ -324,10 +320,9 @@ a {
 .wrapper .static-txt {
   color: #fff;
   font-size: 280%;
-  font: 'Roboto';
+  font: "Roboto";
   font-weight: 400;
 }
-
 
 .one {
   height: 10%;
@@ -346,8 +341,6 @@ a {
   border-radius: 0px;
   padding-top: 100px;
 }
-
-
 
 .img2 {
   width: 50px;
@@ -396,18 +389,14 @@ a {
 
 #leftbox h3 {
   font-size: 15px;
-
 }
-
 
 #middlebox h3 {
   font-size: 20px;
-
 }
 
 #rightbox h3 {
   font-size: 15px;
-
 }
 #leftbox {
   float: left;
@@ -436,57 +425,55 @@ a {
 
 /* lines and animation  */
 
-
 .lines {
-    position: absolute;
-    width: 563px;
-    height: 210px;
-    left: 50px;
-    top: 100px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 80px;
-    line-height: 105px;
-    text-align: justify;
-    color: #FFFFFF;
+  position: absolute;
+  width: 563px;
+  height: 210px;
+  left: 50px;
+  top: 100px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 80px;
+  line-height: 105px;
+  text-align: justify;
+  color: #ffffff;
 }
 
-
-.lines2{
-position: absolute;
-width: 590px;
-height: 51px;
-left: 50px;
-top: 350px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 30px;
-line-height: 50px;
-/* identical to box height, or 168% */
-letter-spacing: 0.075em;
-color: #FFFFFF;
+.lines2 {
+  position: absolute;
+  width: 590px;
+  height: 51px;
+  left: 50px;
+  top: 350px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 50px;
+  /* identical to box height, or 168% */
+  letter-spacing: 0.075em;
+  color: #ffffff;
 }
 
-.userlogin{
-position: relative;
-width: 260px;
-/* height: 305px; */
-left: 60px;
-top: 65px;
-filter: drop-shadow(-4px 4px 15px rgba(255, 139, 43, 0.5));
+.userlogin {
+  position: relative;
+  width: 260px;
+  /* height: 305px; */
+  left: 60px;
+  top: 65px;
+  filter: drop-shadow(-4px 4px 15px rgba(255, 139, 43, 0.5));
 }
-.guserlogin{
-position: relative;
-width: 515px;
-/* height: 101px; */
-left: 650px;
-top: 155px;
+.guserlogin {
+  position: relative;
+  width: 515px;
+  /* height: 101px; */
+  left: 650px;
+  top: 155px;
 
-background: linear-gradient(180deg, #F92A00 0%, #FF8B2B 100%);
-box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 30px;
+  background: linear-gradient(180deg, #f92a00 0%, #ff8b2b 100%);
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
 }
 
 /* .rect{
@@ -514,25 +501,23 @@ box-shadow: -4px 4px 15px 3px rgba(255, 139, 43, 0.5);
 border-radius: 20px;
 }*/
 
-
-.retaillogin{
-    position: relative;
-width: 260px;
-/* height: 290px; */
-left: 65px;
-top: -20px;
-filter: drop-shadow(-4px 4px 15px rgba(255, 139, 43, 0.5));
+.retaillogin {
+  position: relative;
+  width: 260px;
+  /* height: 290px; */
+  left: 65px;
+  top: -20px;
+  filter: drop-shadow(-4px 4px 15px rgba(255, 139, 43, 0.5));
 }
 
-.cuserlogin{
-    position: relative;
-width: 515px;
-/* height: 108px; */
-left: 650px;
-top: 75px;
+.cuserlogin {
+  position: relative;
+  width: 515px;
+  /* height: 108px; */
+  left: 650px;
+  top: 75px;
 
-background: linear-gradient(180deg, #F92A00 0%, #FF8B2B 100%);
-box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 30px;
+  background: linear-gradient(180deg, #f92a00 0%, #ff8b2b 100%);
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
 }
-

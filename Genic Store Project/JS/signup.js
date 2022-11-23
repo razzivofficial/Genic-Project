@@ -104,3 +104,12 @@ for (let item of items) {
   item.addEventListener("keypress", toggleItem, false);
 }
 document.addEventListener("click", closeSubmenu, false);
+
+
+
+function onlyOne(checkbox) {
+  var checkboxes = document.getElementsByName('check')
+  checkboxes.forEach((item) => {
+      if (item !== checkbox) item.checked = false
+  })
+}

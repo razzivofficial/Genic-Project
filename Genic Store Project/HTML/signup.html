@@ -35,8 +35,8 @@
             </a>
             <li class="item"><a href="index.html">Home</a></li>
             <li class="item"><a href="faq.html">FAQs</a></li>
-            <li class="item"><a href="G-SMEs.html">G-SMES</a></li>
-            <li class="item"><a href="G-USERs.html">G-USERS</a></li>
+            <li class="item"><a href="G-SMEs.html">G-SMEs</a></li>
+            <li class="item"><a href="G-USERs.html">G-USERs</a></li>
             <li class="item button" style="padding:0 0 0 10px"><a href="../HTML/login.html">Log In</a></li>
             <li class="item button secondary" style="padding:0 0 0 10px"><a href="../HTML/signup.html">Sign Up</a></li>
             <li class="toggle">
@@ -60,11 +60,11 @@
                 <label for="pin">Pin Code</label>
                 <input type="text" name="pin" inputmode="numeric" pattern="[0-9]{6}" maxlength="6" required
                     onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
+                <input name="check" type="checkbox" onclick="onlyOne(this)">
                 <label for="req">&nbsp;G-USERS&nbsp;</label>
-                <input type="checkbox">
+                <input  name="check" type="checkbox" onclick="onlyOne(this)">
                 <label for="req">&nbsp;G-SMEs&nbsp;</label>
-                <input type="checkbox">
-                <br> <br>
+                <br><br>
                 <img src="images/wp.png" alt="Whatsapp">&nbsp;&nbsp;&nbsp;
                 <label for="req">Get Updates</label>&nbsp;&nbsp;
                 <input type="checkbox">

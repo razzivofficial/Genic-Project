@@ -315,27 +315,27 @@ button:hover {
   /* margin: auto; */
 }
 
-.faq-body {
-  /* margin: auto; */
-  text-align: center;
-  width: 60%;
-  padding: auto;
-}
+
 
 /* 
 Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) 
 */
 .active,
 .faq-page:hover {
-  background-color: transparent;
+  background-color: #620554;
 }
 
 /* Style the faq-page panel. Note: hidden by default */
 .faq-body {
-  padding: 0 18px;
-  background-color: #620554;
+  padding: 0% 4% !important;
+  font-size: 120%;
+  font-family: 'Roboto';
+  font-weight: 300;
+  background-color: transparent;
   display: none;
-  overflow: hidden;
+  text-align:left;
+  width: 60%;
+  /* overflow: hidden; */
 }
 
 .faq-page:after {
